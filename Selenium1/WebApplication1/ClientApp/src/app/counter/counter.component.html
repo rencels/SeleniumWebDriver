@@ -2,6 +2,11 @@
 
 <p>This is a simple example of an Angular component.</p>
 
-<p>Current count: <strong>{{ currentCount }}</strong></p>
+<p>Current count: <strong id="currentCountId">{{ currentCount }}</strong></p>
 
-<button class="btn btn-primary" (click)="incrementCounter()">Increment</button>
+<div>
+  <input  id="nameId"/>
+</div>
+<div>
+  <button id="btn btn-primary" class="btn btn-primary" (click)="incrementCounter()">Increment</button>
+</div>
